@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //anhnii too oloh daalgavar
+      let a = prompt("Toogoo pruulna uu");
+      let result = 0;
+      function anhnii(num) {
+        for (let b = 1; b < num; b++) {
+          if (num % b == 0) {
+            result = b;
+          }
+        }
+        if (result > 1) {
+          return "anhnii too bish";
+        } else {
+          return "anhnii too";
+        }
+      }
+      alert(anhnii(a));
+    </script>
+  </body>
+</html>
